@@ -22,6 +22,7 @@ body{
 }
 
 .botones a{
+    font-family: "Sour Gummy", sans-serif;
     background-color: #0a2be9;
     padding: 9px;
     border-radius: 80px;
@@ -77,8 +78,11 @@ body{
 .greetings > span:nth-child(9){
     animation-delay: 1.6s;
 }
-
+.description span{
+    font-family: "Sour Gummy", sans-serif;
+}
 .description{
+
     font-size: 1.5rem;
     margin-bottom: 20px;
 }

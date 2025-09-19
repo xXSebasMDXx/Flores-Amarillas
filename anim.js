@@ -27,17 +27,16 @@ var lyricsData = [
   { text: "Deja que me salga el día", time: 85 },
   { text: "Deja que muera mi noche", time: 86 },
 
-  { text: "In the mood for the flowers love", time: 108 },
-  { text: "At the time", time: 144 },
-  { text: "The whisper of birds", time: 148 },
-  { text: "Lonely before the sun cried", time: 153 },
-  { text: "Fell from the sky", time: 158 },
-  { text: "Like water drops", time: 164 },
-  { text: "Where I'm now? I don't know why", time: 169 },
-  { text: "Nice butterflies in my hands", time: 176 },
-  { text: "Too much light for twilight", time: 183 },
-  { text: "In the mood for the flowers", time: 188 },
-  { text: "Love.", time: 140 },
+
+  { text: "Tú, mi poema", time: 149 },
+  { text: "Mí, melodía", time: 151 },
+  { text: "Soy preso de tu mirada", time: 154 },
+  { text: "De esos tus labios de rosa", time: 156 },
+  { text: "Deja que me salga el día", time: 160 },
+  { text: "Deja que muera mi noche", time: 162 },
+
+  { text: "Deja que me salga el día", time: 179 },
+  { text: "Deja que muera mi noche", time: 180 },
 ];
 
 // Animar las letras
@@ -50,7 +49,7 @@ function updateLyrics() {
 
   if (currentLine) {
     // Calcula la opacidad basada en el tiempo en la línea actual
-    var fadeInDuration = 0.05; // Duración del efecto de aparición en segundos
+    var fadeInDuration = 0.1; // Duración del efecto de aparición en segundos
     var opacity = Math.min(1, (time - currentLine.time) / fadeInDuration);
 
     // Aplica el efecto de aparición
